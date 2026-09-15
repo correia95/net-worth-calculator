@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f766e" />
+
+    <title>Net Worth Calculator — assets minus liabilities, by category</title>
+    <meta
+      name="description"
+      content="List what you own and what you owe, grouped by category, and see your net worth and how it breaks down. Bank accounts, investments, retirement, real estate and vehicles vs. mortgages, loans and credit cards. Runs in your browser, no sign-up."
+    />
+    <link rel="canonical" href="https://net-worth-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Net Worth Calculator" />
+    <meta property="og:description" content="Assets minus liabilities, grouped by category, with a shareable breakdown. Free, in your browser." />
+    <meta property="og:url" content="https://net-worth-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://net-worth-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Net Worth Calculator" />
+    <meta name="twitter:description" content="List what you own and owe, and see your net worth broken down by category. Free, in your browser." />
+    <meta name="twitter:image" content="https://net-worth-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Net Worth Calculator",
+        "url": "https://net-worth-calculator.correia95.workers.dev/",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Totals a list of assets and liabilities, grouped by category, to compute net worth and show a per-category breakdown, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is net worth calculated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Net worth is the total value of everything you own (assets) minus everything you owe (liabilities). Add a line for each account, property, loan or balance and the total updates as you type."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What counts as an asset or a liability?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Assets are things with value you could convert to cash: bank balances, investments, retirement accounts, property, vehicles. Liabilities are debts you owe: a mortgage, loans, credit card balances. Enter only the current balance owed for a liability, not the original loan amount."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my financial data sent anywhere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Everything is calculated in your browser and only stored in the page's own link, so nothing is uploaded to a server."
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      .tt-nav { box-sizing: border-box; width: 100%; margin: 0; background: #f1f1f4; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+      .tt-nav a { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; text-decoration: none; color: #3730a3; font: 600 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .tt-nav a:hover { color: #1e1b4b; text-decoration: underline; }
+      .tt-nav svg { width: 14px; height: 14px; flex: none; }
+      @media (prefers-color-scheme: dark) {
+        .tt-nav { background: #15151b; border-bottom-color: rgba(255, 255, 255, 0.12); }
+        .tt-nav a { color: #c7d2fe; }
+        .tt-nav a:hover { color: #e0e7ff; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="tt-nav"><a href="https://tinytools.correia95.workers.dev/" aria-label="TinyTools home — all tools and games"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 2 11h3v9h5v-6h4v6h5v-9h3z"/></svg><span>TinyTools</span></a></nav>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This net worth calculator needs JavaScript. It totals a list of assets and liabilities,
+        grouped by category, to show your net worth.
+      </p>
+    </noscript>
+  </body>
+</html>

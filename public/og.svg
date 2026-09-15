@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0c1113"/>
+  <path d="M870 380 L920 320 L970 350 L1040 260" fill="none" stroke="#2dd4bf" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1000 260 H1040 V300" fill="none" stroke="#2dd4bf" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="850" y1="400" x2="1060" y2="400" stroke="#2dd4bf" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  <text x="90" y="150" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="76" font-weight="800" fill="#e7eef1" letter-spacing="-1">Net Worth Calculator</text>
+  <text x="90" y="205" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#93a2a9">Assets minus liabilities, by category</text>
+  <text x="90" y="340" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="56" font-weight="800" fill="#2dd4bf">$178,000 net worth</text>
+  <text x="90" y="392" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#93a2a9">$490,000 assets · $312,000 liabilities</text>
+  <text x="90" y="500" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#e7eef1">List what you own and owe, see the breakdown</text>
+  <text x="90" y="548" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#93a2a9">Free · no sign-up · runs in your browser</text>
+</svg>
